@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TO DO MVVM</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_note">Add Note</string>
+    <string name="delete_all_note">Delete All Note</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="edit">EDIT</string>
+    <string name="delete">DELETE</string>
+</resources>

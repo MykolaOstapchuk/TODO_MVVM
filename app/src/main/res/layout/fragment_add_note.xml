@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground"
+    tools:context=".Fragments.AddNoteFragment">
+
+    <EditText
+        android:id="@+id/titleTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title"
+        android:inputType="text"
+        android:textColor="@color/recTextBackground"
+        android:textColorHint="@color/recTextBackground"
+        android:autofillHints="@string/title" />
+
+    <EditText
+        android:id="@+id/descriptionTxt"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/titleTxt"
+        android:gravity="start"
+        android:inputType="textMultiLine"
+        android:hint="@string/description"
+        android:textColor="@color/recTextBackground"
+        android:textColorHint="@color/recTextBackground"
+        android:autofillHints="@string/description" />
+
+    <Button
+        android:id="@+id/confirmBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:text="@string/confirm" />
+
+    <Button
+        android:id="@+id/cancelBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@+id/confirmBtn"
+        android:text="@string/cancel" />
+
+</RelativeLayout>
